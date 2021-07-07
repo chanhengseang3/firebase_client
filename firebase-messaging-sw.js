@@ -2,15 +2,13 @@ importScripts('https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js')
 importScripts('https://www.gstatic.com/firebasejs/8.7.0/firebase-messaging.js')
 
 var firebaseConfig = {
-    apiKey: "AIzaSyArFVB4orI1tIg2T1JNNoCcZkFVjAZWgJ8",
-    authDomain: "khmer-auction-d8bf5.firebaseapp.com",
-    databaseURL: "https://khmer-auction-d8bf5-default-rtdb.firebaseio.com",
-    projectId: "khmer-auction-d8bf5",
-    storageBucket: "khmer-auction-d8bf5.appspot.com",
-    messagingSenderId: "815601442430",
-    appId: "1:815601442430:web:9d2c0dbc9c88c0ff2f822f",
-    measurementId: "G-TS0384Q8P7"
-};
+    apiKey: "AIzaSyD-d5bcd9XsORHbHAmMsVg5GCK5WkbF4lI",
+    authDomain: "camdigikey-dev-313205.firebaseapp.com",
+    projectId: "camdigikey-dev-313205",
+    storageBucket: "camdigikey-dev-313205.appspot.com",
+    messagingSenderId: "179589035704",
+    appId: "1:179589035704:web:d073bc1a9bcc81cda8264d"
+  };
 
 firebase.initializeApp(firebaseConfig)
 const messaging = firebase.messaging();
